@@ -43,6 +43,7 @@ The number of nodes in the tree is in the range [1, 105].
  * }
  
  */
+
 class Solution {
     int ans = 0;
     public int pseudoPalindromicPaths (TreeNode root) {
