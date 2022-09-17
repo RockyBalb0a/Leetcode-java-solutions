@@ -33,6 +33,7 @@ Constraints:
  * 
  */
 
+import java.util.*;
 class Solution {
     public int[] findOriginalArray(int[] changed) {
         //if length of array is odd it can't be doubled array

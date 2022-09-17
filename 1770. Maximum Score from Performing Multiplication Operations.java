@@ -41,7 +41,7 @@ m <= n <= 105
 -1000 <= nums[i], multipliers[i] <= 1000
  * 
  */
-
+import java.util.*;
 class Solution {
     private int helper(int[] nums, int N, int[] multipliers, int M, int numsLeftIndex, int index, int[][] dp) {
 	    int numsRightIndex = N - 1 - (index - numsLeftIndex);
